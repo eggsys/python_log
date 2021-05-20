@@ -11,7 +11,7 @@ def cal_common(lst):
     temp = 0.0
     max = 0
     lst_count = [[x, lst.count(x)] for x in set(lst)]
-    print (lst_count)
+    #print (lst_count)
     for x in lst_count:
         #print(x[0],x[1])
         if(int(x[1]) > temp):
