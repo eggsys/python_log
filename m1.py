@@ -35,13 +35,9 @@ class secondary(object):
       print("c :", c)
       print("d :", d)
 
-## *args กำหนดเพื่อส่งค่ามากี่ตัวก็ได้ไม่ส่งก็ได้ ถ้าไม่ใส่* = บังคับว่าต้องส่ง
-## **kwargs สามารถกำหนดตัวแปร ลงใน parameter ได้ d='dog', c='nick'
-## * args to not require minimum parameter
-## ** kwarg : allow to determine Variable in parameter
 
-m = main_file()
-s = secondary(m)
-main_file.method(s, "egg" ,2)
+#m = main_file()
+#s = secondary(m)
+#main_file.method(s, "egg" ,2)
 
-s.myfunc("x","y",  d='dog', c='nick',)
+#s.myfunc("x","y",  d='dog', c='nick',)
